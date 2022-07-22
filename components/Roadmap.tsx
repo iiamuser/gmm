@@ -10,8 +10,8 @@ const roadmapCardConfig = [
     animation: "slideInLeft",
     title: "roadmapTitle1",
     description: "roadmap1",
-    color: "yellow",
-    colorDark: "purple",
+    color: "purple",
+    colorDark: "black",
   },
   {
     justifyContent: "end",

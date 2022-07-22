@@ -15,6 +15,11 @@ const storyConfig = [
     title: "storyTitle2",
     description: "story2",
   },
+  {
+    mt: 8,
+    title: "storyTitle3",
+    description: "story3",
+  },
 ];
 
 const Story: FC = () => {
@@ -64,6 +69,7 @@ const Story: FC = () => {
           })}
         </Box>
       </Flex>
+      
     </Flex>
   );
 };
