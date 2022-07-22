@@ -7,8 +7,8 @@ import { FaDiscord, FaInstagram } from "react-icons/fa";
 import { IoMoon, IoSunny } from "react-icons/io5";
 
 // @ 로고 이미지는 public/images를 교체하시면 됩니다. URL은 우리 프로젝트의 URL을 작성하시면 됩니다.
-const logoImage = "logo_black.png";
-const logoImageDark = "logo_white.png";
+const logoImage = "우주선.jpg";
+const logoImageDark = "우주선.jpg";
 const openseaURL = "https://testnets.opensea.io/collection/projectlion-nft";
 const discordURL = "https://discord.gg/JV4whBWNPs";
 const instagramURL = "https://www.instagram.com/projectlion.io/";

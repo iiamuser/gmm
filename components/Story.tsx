@@ -3,7 +3,7 @@ import { useTranslation } from "next-i18next";
 import { FC } from "react";
 
 // @ 이미지는 public/images, 스토리 내용은 public/locales의 json 파일을 각각 수정해서 사용하시면 됩니다.
-const storyImage = "lion.gif";
+const storyImage = "우주선.jpg";
 const storyConfig = [
   {
     mt: 0,
@@ -19,6 +19,21 @@ const storyConfig = [
     mt: 8,
     title: "storyTitle3",
     description: "story3",
+  },
+  {
+    mt: 8,
+    title: "storyTitle4",
+    description: "story4",
+  },
+  {
+    mt: 8,
+    title: "storyTitle5",
+    description: "story5",
+  },
+  {
+    mt: 8,
+    title: "storyTitle6",
+    description: "story6",
   },
 ];
 
