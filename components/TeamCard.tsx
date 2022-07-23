@@ -25,7 +25,7 @@ const TeamCard: FC<TeamCardProps> = ({
   return (
     <Flex
       m={[8, 8, 8, 4]}
-      className={`${isAnimated && "animate__animated animate__" + animation}`}
+      // className={`${isAnimated && "animate__animated animate__" + animation}`}
       ref={dom}
       bgGradient={
         colorMode === "light"

@@ -7,8 +7,8 @@ import { FaDiscord, FaInstagram } from "react-icons/fa";
 import { IoMoon, IoSunny } from "react-icons/io5";
 
 // @ 로고 이미지는 public/images를 교체하시면 됩니다. URL은 우리 프로젝트의 URL을 작성하시면 됩니다.
-const logoImage = "우주선.jpg";
-const logoImageDark = "우주선.jpg";
+const logoImage = "logo_black.png";
+const logoImageDark = "logo_black.png";
 const openseaURL = "https://testnets.opensea.io/collection/projectlion-nft";
 const discordURL = "https://discord.gg/aBWfDUBM";
 const instagramURL = "https://www.instagram.com/gmmproject.io/";
@@ -35,7 +35,7 @@ const Header: FC = () => {
       <Box fontWeight="bold" fontSize="lg" cursor="pointer">
         <Link href="/">
           <Image
-            w={50}
+            w={200}
             src={
               colorMode === "light"
                 ? `../images/${logoImage}`
@@ -56,7 +56,7 @@ const Header: FC = () => {
           );
         })}
         <Link href="/minting">
-        <Button variant="ghost" mx={[0, 0, 8]} size={["xs", "sm", "md"]}>
+          <Button variant="ghost" mx={[0, 0, 8]} size={["xs", "sm", "md"]}>
             Minting
           </Button>
         </Link>
