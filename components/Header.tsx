@@ -11,7 +11,7 @@ const logoImage = "우주선.jpg";
 const logoImageDark = "우주선.jpg";
 const openseaURL = "https://testnets.opensea.io/collection/projectlion-nft";
 const discordURL = "https://discord.gg/JV4whBWNPs";
-const instagramURL = "https://www.instagram.com/projectlion.io/";
+const instagramURL = "https://discord.gg/aBWfDUBM";
 
 const Header: FC = () => {
   const scrollLink = ["Story", "Roadmap", "Team"];
