@@ -70,7 +70,7 @@ const Roadmap: FC = () => {
     <Flex
       minH="100vh"
       alignItems="center"
-      id="Roadmap"
+      id="Story"
       flexDir="column"
       mb={24}
     >

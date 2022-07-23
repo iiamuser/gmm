@@ -56,7 +56,7 @@ const Team: FC = () => {
           "repeat(1, 1fr)",
           "repeat(1, 1fr)",
           "repeat(2, 1fr)",
-          "repeat(4, 1fr)",
+          "repeat(5, 1fr)",
         ]}
       >
         {teamCardConfig.map((v, i) => {

@@ -32,7 +32,7 @@ const TeamCard: FC<TeamCardProps> = ({
           ? `linear(to-b, ${color}.500, ${color}.400, ${color}.300, ${color}.200)`
           : `linear(to-b, ${color}.100, ${color}.300, ${color}.500, ${color}.700)`
       }
-      w={225}
+      w={200}
       py={6}
       rounded="xl"
       justifyContent="center"

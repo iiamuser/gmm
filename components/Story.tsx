@@ -47,11 +47,11 @@ const Story: FC = () => {
       minH="100vh"
       justifyContent="center"
       alignItems="center"
-      id="Story"
-      flexDir={["column", "column", "row"]}
+      id="Roadmap"
+      flexDir={"column"}
     >
-      <Flex w={["full", "full%", "50%"]}>
-        <Box w={["full", "full%"]} p={8}>
+      {/* <Flex w={"full"} bgColor="red100"> */}
+        {/* <Box w={"full"} p={8}> */}
           <Text textAlign="center" mb={8} fontSize="4xl" fontWeight="bold">
             {t("story")}
           </Text>
@@ -59,10 +59,11 @@ const Story: FC = () => {
             src={`../images/${storyImage}`}
             borderRadius="2xl"
             alt="story"
-          />
-        </Box>
-      </Flex>
-      <Flex
+            mx="auto"
+            />
+        {/* </Box> */}
+      {/* </Flex> */}
+      {/* <Flex
         w={["full", "full%", "50%"]}
         justifyContent="center"
         alignItems="center"
@@ -83,7 +84,7 @@ const Story: FC = () => {
             );
           })}
         </Box>
-      </Flex>
+      </Flex> */}
       
     </Flex>
   );

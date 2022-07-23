@@ -10,11 +10,11 @@ import { IoMoon, IoSunny } from "react-icons/io5";
 const logoImage = "우주선.jpg";
 const logoImageDark = "우주선.jpg";
 const openseaURL = "https://testnets.opensea.io/collection/projectlion-nft";
-const discordURL = "https://discord.gg/JV4whBWNPs";
-const instagramURL = "https://discord.gg/aBWfDUBM";
+const discordURL = "https://discord.gg/aBWfDUBM";
+const instagramURL = "https://www.instagram.com/gmmproject.io/";
 
 const Header: FC = () => {
-  const scrollLink = ["Story", "Roadmap", "Team"];
+  const scrollLink = ["Roadmap", "Story", "Team"];
 
   const router = useRouter();
 
@@ -35,7 +35,7 @@ const Header: FC = () => {
       <Box fontWeight="bold" fontSize="lg" cursor="pointer">
         <Link href="/">
           <Image
-            w={200}
+            w={50}
             src={
               colorMode === "light"
                 ? `../images/${logoImage}`
@@ -55,6 +55,11 @@ const Header: FC = () => {
             </ScrollLink>
           );
         })}
+        <Link href="/minting">
+        <Button variant="ghost" mx={[0, 0, 8]} size={["xs", "sm", "md"]}>
+            Minting
+          </Button>
+        </Link>
       </Box>
       <Flex alignItems="center" my={[4, 4, 0]}>
         <Link href={openseaURL}>
@@ -83,7 +88,7 @@ const Header: FC = () => {
             </Button>
           )}
         </Box>
-        <Box>
+        {/* <Box>
           <Link
             href={router.asPath}
             locale={router.locale === "en" ? "ko" : "en"}
@@ -92,7 +97,7 @@ const Header: FC = () => {
               {router.locale === "en" ? "EN" : "KO"}
             </Button>
           </Link>
-        </Box>
+        </Box> */}
       </Flex>
     </Flex>
   );
