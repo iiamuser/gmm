@@ -12,6 +12,7 @@ const roadmapCardConfig = [
     description: "roadmap1",
     color: "black",
     colorDark: "black",
+    fontcolor:"white",
   },
   {
     justifyContent: "end",
@@ -20,6 +21,7 @@ const roadmapCardConfig = [
     description: "roadmap2",
     color: "black",
     colorDark: "black",
+    fontcolor:"white",
   },
   {
     justifyContent: "",
@@ -28,6 +30,7 @@ const roadmapCardConfig = [
     description: "roadmap3",
     color: "black",
     colorDark: "black",
+    fontcolor:"white",
   },
   {
     justifyContent: "end",
@@ -36,6 +39,7 @@ const roadmapCardConfig = [
     description: "roadmap4",
     color: "black",
     colorDark: "black",
+    fontcolor:"white",
   },
   {
     justifyContent: "",
@@ -44,6 +48,7 @@ const roadmapCardConfig = [
     description: "roadmap5",
     color: "black",
     colorDark: "black",
+    fontcolor:"white",
   },
   {
     justifyContent: "end",
@@ -52,6 +57,7 @@ const roadmapCardConfig = [
     description: "roadmap6",
     color: "black",
     colorDark: "black",
+    fontcolor:"white",
   },
   
 ];

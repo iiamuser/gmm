@@ -4,7 +4,7 @@ import { Box, Button, Flex, Image, useColorMode } from "@chakra-ui/react";
 import Link from "next/link";
 import { Link as ScrollLink } from "react-scroll";
 import { FaDiscord, FaInstagram } from "react-icons/fa";
-import { IoMoon, IoSunny } from "react-icons/io5";
+// import { IoMoon, IoSunny } from "react-icons/io5";
 
 // @ 로고 이미지는 public/images를 교체하시면 됩니다. URL은 우리 프로젝트의 URL을 작성하시면 됩니다.
 const logoImage = "logo.png";
@@ -49,7 +49,7 @@ const Header: FC = () => {
         {scrollLink.map((v, i) => {
           return (
             <ScrollLink key={i} to={v} spy={true} smooth={true}>
-              <Button variant="ghost" mx={[0, 0, 8]} size={["xs", "sm", "md"]}>
+              <Button variant="ghost" mx={[0, 0, 8]} size={["xs", "sm", "md"]} colorScheme="white">
                 {v}
               </Button>
             </ScrollLink>
@@ -68,12 +68,12 @@ const Header: FC = () => {
           </Button>
         </Link>
         <Link href={discordURL}>
-          <Button variant="ghost" size={["xs", "xs", "sm"]}>
+          <Button variant="ghost" size={["xs", "xs", "sm"]} colorScheme="white">
             <FaDiscord size={24} />
           </Button>
         </Link>
         <Link href={instagramURL}>
-          <Button variant="ghost" size={["xs", "xs", "sm"]}>
+          <Button variant="ghost" size={["xs", "xs", "sm"]} colorScheme="white">
             <FaInstagram size={24} />
           </Button>
         </Link>
