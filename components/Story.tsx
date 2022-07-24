@@ -39,6 +39,7 @@ const Story: FC = () => {
       alignItems="center"
       id="Roadmap"
       flexDir={"column"}
+      bgColor="blueviolet"
     >
       <Flex
         w={["full", "full%", "50%"]}
