@@ -8,7 +8,7 @@ interface LayoutProps {
 
 const Layout: FC<LayoutProps> = ({ children }) => {
   return (
-    <Box bgColor="blueviolet">
+    <Box>
       <Header />
       {children}
     </Box>

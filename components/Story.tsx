@@ -3,7 +3,7 @@ import { useTranslation } from "next-i18next";
 import { FC } from "react";
 
 // @ 이미지는 public/images, 스토리 내용은 public/locales의 json 파일을 각각 수정해서 사용하시면 됩니다.
-const storyImage = "Roadmap_.png";
+const storyImage = "Roadmap_Color.png";
 const storyConfig = [
   {
     mt: 0,
@@ -39,7 +39,6 @@ const Story: FC = () => {
       alignItems="center"
       id="Roadmap"
       flexDir={"column"}
-      bgColor="blueviolet"
     >
       <Flex
         w={["full", "full%", "50%"]}

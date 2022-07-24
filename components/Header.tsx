@@ -4,7 +4,7 @@ import { Box, Button, Flex, Image, useColorMode } from "@chakra-ui/react";
 import Link from "next/link";
 import { Link as ScrollLink } from "react-scroll";
 import { FaDiscord, FaInstagram } from "react-icons/fa";
-// import { IoMoon, IoSunny } from "react-icons/io5";
+import { IoMoon, IoSunny } from "react-icons/io5";
 
 // @ 로고 이미지는 public/images를 교체하시면 됩니다. URL은 우리 프로젝트의 URL을 작성하시면 됩니다.
 const logoImage = "logo.png";
@@ -77,7 +77,7 @@ const Header: FC = () => {
             <FaInstagram size={24} />
           </Button>
         </Link>
-        {/* <Box onClick={toggleColorMode}>
+        <Box onClick={toggleColorMode}>
           {colorMode === "light" ? (
             <Button variant="ghost" size={["xs", "xs", "sm"]}>
               <IoSunny size={24} />
@@ -87,7 +87,7 @@ const Header: FC = () => {
               <IoMoon size={24} />
             </Button>
           )}
-        </Box> */}
+        </Box>
         {/* <Box>
           <Link
             href={router.asPath}
