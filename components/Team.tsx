@@ -22,7 +22,7 @@ const teamCardConfig = [
   {
     name: " ",
     position: " ",
-    image: "hyeju.png",
+    image: "Hyeji.png",
     color: " ",
     animation: " ",
   },
